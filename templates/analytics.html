@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analytics</title>
+</head>
+<body>
+
+<h2>Analytics Dashboard</h2>
+
+<h3>Total Spending: {{ total }}</h3>
+
+<hr>
+
+<h3>Category-wise Spending (Table)</h3>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Category</th>
+        <th>Total Amount</th>
+    </tr>
+
+    {% for row in category_data %}
+    <tr>
+        <td>{{ row[0] }}</td>
+        <td>{{ row[1] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<br><br>
+
+<h3>Category-wise Spending (Chart)</h3>
+
+<img src="{{ chart }}" width="500">
+
+<br><br>
+
+<a href="/">⬅ Back to Home</a>
+
+</body>
+</html>
