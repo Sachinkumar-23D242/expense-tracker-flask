@@ -1,26 +1,26 @@
-# 💰 Expense Tracker Web App
+#  Expense Tracker Web App
 
 A full-stack web application to track daily expenses and analyze spending patterns.
 
-## 🚀 Features
+##  Features
 - Add, Edit, Delete transactions
 - View all transactions
 - Analytics dashboard
 - Category-wise spending chart
 
-## 🛠 Tech Stack
+##  Tech Stack
 - Python (Flask)
 - MySQL
 - HTML, CSS
 - Matplotlib
 
-## 📊 Output
+##  Output
 - Total spending calculation
 - Category-wise visualization
 
-## ▶️ Run Locally
+##  Run Locally
 pip install -r requirements.txt  
 python app.py
 
-## 📌 Author
+##  Author
 Sachin Kumar
